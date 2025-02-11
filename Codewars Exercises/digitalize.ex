@@ -1,6 +1,6 @@
 defmodule Digitizer do
   def digitize(n) do
-  n
+    n
     |> Integer.digits()
     |> Enum.reverse()
   end
